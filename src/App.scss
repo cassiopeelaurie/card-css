@@ -1,0 +1,61 @@
+.entireCard {
+  box-shadow: 5px 5px 10px black;
+}
+
+.card {
+  width: 600px;
+  display: flex;
+  border-bottom: 2px solid lightgrey;
+  margin-bottom: -5px;
+
+  .image {
+    width: 230px;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .song {
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 20px;
+  }
+  .album {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: grey;
+    margin: 40px 0 0 20px;
+    font-size: 30px;
+  }
+  .date {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: gray;
+    font-style: italic;
+    margin: -2px 0 0 20px;
+    font-size: 30px;
+  }
+}
+
+.rateContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 665px;
+  margin-top: -2px;
+  height: 100px;
+}
+
+.rating-stars {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.rateSentence {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: gray;
+  margin: 20px;
+}

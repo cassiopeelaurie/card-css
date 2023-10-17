@@ -1,8 +1,10 @@
-# React + Vite
+--CARD en CSS--
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+J'ai choisi de faire une carte qui affiche :
+-le titre d'une musique
+-le nom de l'album
+-l'image de l'album
+-la date de sortie de l'album
+-une partie ratings en REACT avec un package "react-rating-stars"
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+J'ai mis le css dans un fichier App.scss puis j'ai importé directement dans app.jsx,c'est la façon la plus simple for me
